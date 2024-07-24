@@ -1,0 +1,38 @@
+div.content, div.detail div {
+    display: grid;
+    justify-content: left;
+}
+
+div.detail {
+    border-top: 0.125rem solid var(--box-shadow);
+}
+
+div.content label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.8rem auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+div.content input, div.content select {
+    background: var(--box-background);
+    border: none;
+    padding: 0.625rem;
+    border-radius: 1rem 0 1rem 0;
+    box-shadow: 0 0 0.625rem var(--box-shadow);
+    color: var(--box-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+div.content input::placeholder {
+    color: var(--check-background);
+}

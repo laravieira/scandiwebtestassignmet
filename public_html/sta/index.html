@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STA | Products List</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/list.css">
+</head>
+<body>
+
+    <form id="form-add" method="post" action="/add-product"></form>
+
+    <header>
+        <h1>Products List</h1>
+        <nav>
+            <button type="submit" form="form-add">ADD</button>
+            <button type="submit" form="form-delete" id="mass-delete">MASS DELETE</button>
+        </nav>
+    </header>
+
+    <form id="form-delete" action="/api/delete/redirect" method="post">
+        <div class="content" id="content">
+            <!-- Products are placed here by javascript -->
+        </div>
+    </form>
+
+    <footer>
+        Scandweb Test Assignment
+    </footer>
+
+    <script src="/assets/js/classes/Product.js"></script>
+    <script src="/assets/js/classes/DVD.js"></script>
+    <script src="/assets/js/classes/Furniture.js"></script>
+    <script src="/assets/js/classes/Book.js"></script>
+    <script src="/assets/js/list.js"></script>
+</body>
+</html>

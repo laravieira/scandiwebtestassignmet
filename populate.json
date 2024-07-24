@@ -1,0 +1,107 @@
+[
+  {
+    "sku": "A3CACDD256FFC",
+    "name": "STAY - The Kid Laroi",
+    "price": 16.99,
+    "type": "DVD",
+    "size": 650
+  },{
+    "sku": "6F547875963AD",
+    "name": "Plastic Pane",
+    "price": 73.48,
+    "type": "Furniture",
+    "height": 76,
+    "width": 120,
+    "length": 4
+  },{
+    "sku": "6DC238FE93763",
+    "name": "Movements - Pham",
+    "price": 10.59,
+    "type": "DVD",
+    "size": 750
+  },{
+    "sku": "1A3D72521EF22",
+    "name": "Devil Eyes - Hippie Sabotage",
+    "price": 15.99,
+    "type": "DVD",
+    "size": 540
+  },{
+    "sku": "D3886D5F7489A",
+    "name": "Change your Life",
+    "price": 1.99,
+    "type": "Book",
+    "weight": 4.57
+  },{
+    "sku": "BD17B15ACC23E",
+    "name": "How to Draw",
+    "price": 79.90,
+    "type": "Book",
+    "weight": 2.34
+  },{
+    "sku": "3BC3C2E88676B",
+    "name": "Home Theater",
+    "price": 229.99,
+    "type": "Furniture",
+    "height": 45,
+    "width": 93,
+    "length": 32
+  },{
+    "sku": "C4ADC18A99D8D",
+    "name": "UX/UI Design",
+    "price": 380.00,
+    "type": "Book",
+    "weight": 1.67
+  },{
+    "sku": "376F4671CF19C",
+    "name": "Weird Table",
+    "price": 50.00,
+    "type": "Furniture",
+    "height": 57,
+    "width": 72,
+    "length": 4
+  },{
+    "sku": "885E57A238E9A",
+    "name": "Sail - AWOLNATION",
+    "price": 17.99,
+    "type": "DVD",
+    "size": 830
+  },{
+    "sku": "86877D66FDE88",
+    "name": "Is Windows a Bug?",
+    "price": 19.98,
+    "type": "Book",
+    "weight": 2.15
+  },{
+    "sku": "45BE1BB7F1FB8",
+    "name": "Xbox Game Pad",
+    "price": 59.90,
+    "type": "Furniture",
+    "height": 34,
+    "width": 21,
+    "length": 17
+  },{
+    "sku": "3DF7D428BFFF8",
+    "name": "How to use Linux",
+    "price": 5.23,
+    "type": "Book",
+    "weight": 2.54
+  },{
+    "sku": "B14BE35A83937",
+    "name": "Umbrella - Ember island",
+    "price": 14.99,
+    "type": "DVD",
+    "size": 547
+  },{
+    "sku": "57782C3583572",
+    "name": "The Best Book",
+    "price": 2.99,
+    "type": "Book",
+    "weight": 1.12
+  },{
+    "sku": "7D1B3E73319A8",
+    "name": "History of Brazil",
+    "price": 99.99,
+    "type": "Book",
+    "weight": 2.01
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STA | Add Product</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/add.css">
+</head>
+<body>
+
+    <form id="form-cancel" method="post" action="/"></form>
+
+    <header>
+        <h1>Products List</h1>
+        <nav>
+            <button type="submit" form="product_form">Save</button>
+            <button type="submit" form="form-cancel">Cancel</button>
+        </nav>
+    </header>
+
+    <form id="product_form" action="/api/add/redirect" method="post">
+        <div class="content">
+            <label for="sku">
+                SKU
+                <input type="text" id="sku" name="sku" placeholder="9999999999999" required>
+            </label>
+            <label for="name">
+                Name
+                <input type="text" id="name" name="name" placeholder="Amazing Product" required>
+            </label>
+            <label for="price">
+                Price
+                <input type="number" id="price" min="0" step="0.01" name="price" placeholder="1.99" required>
+            </label>
+            <label for="productType">
+                Type
+                <select id="productType" name="type" required>
+                    <option value="">---------</option>
+                    <option id="dvd" value="DVD">DVD</option>
+                    <option id="furniture" value="Furniture">Furniture</option>
+                    <option id="book" value="Book">Book</option>
+                </select>
+            </label>
+            <div id="detail">
+                <!-- Specify detail will come here -->
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        Scandweb Test Assignment
+    </footer>
+
+    <script src="/assets/js/classes/Product.js"></script>
+    <script src="/assets/js/classes/DVD.js"></script>
+    <script src="/assets/js/classes/Furniture.js"></script>
+    <script src="/assets/js/classes/Book.js"></script>
+    <script src="/assets/js/add.js"></script>
+</body>
+</html>

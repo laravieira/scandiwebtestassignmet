@@ -1,0 +1,58 @@
+
+div.content div.product {
+    margin: 0.5rem;
+    padding: 1rem;
+    width: calc(230px - 1rem);
+    background: var(--box-background);
+    box-shadow: 0 0 0.375rem var(--box-shadow);
+    color: var(--box-color);
+}
+
+div.content label:first-child div.product {
+    border-top-left-radius: 2rem;
+}
+
+div.content label:last-child div.product {
+    border-bottom-right-radius: 2rem;
+}
+
+div.content div.product:hover, div.content div.product:focus {
+    filter: brightness(1.4);
+    box-shadow: 0 0 0.5rem var(--box-shadow) inset;
+}
+
+div.product input.delete-checkbox {
+    background: var(--check-background);
+    border: 0.625rem solid var(--check-border);
+    border-radius: 0.625rem 0 0.625rem 0;
+    height: 1rem;
+    width: 1rem;
+}
+
+div.product p {
+    width: 100%;
+    text-align: center;
+    color: var(--box-color);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div.product p.product-sku {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+div.product p.product-name {
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+div.product p.product-price {
+    font-size: 1.2rem;
+}
+
+div.product p.product-detail {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}

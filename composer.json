@@ -1,0 +1,15 @@
+{
+  "name": "laravieira/sta",
+  "description": "Scandiweb Test Assignment by Lara Vieira",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lara Vieira",
+      "email": "contato@laravieira.me"
+    }
+  ],
+  "require": {
+    "php-64bit": "^8.0"
+  }
+}
