@@ -47,7 +47,7 @@ class Autoload
      */
     private function getSTABasePath(): string
     {
-        return '/app/src/';
+        return __DIR__ . '/src/';
     }
 
 }
