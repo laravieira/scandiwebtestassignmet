@@ -5,7 +5,7 @@ ENV DATABASE_NAME sta
 ENV DATABASE_USER sta
 ENV DATABASE_PASS password
 ENV POPULATE populate.json
-ENV APACHE_DOCUMENT_ROOT /app
+ENV APACHE_DOCUMENT_ROOT /app/public_html
 
 USER www-data:www-data
 WORKDIR /app
